@@ -21,11 +21,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "JZMaxDisArrayValueTests/JZMaxDisArrayValueTests.m"
-         timestampString = "429462830.34235"
+         timestampString = "429519026.020163"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "19"
-         endingLineNumber = "19"
+         startingLineNumber = "25"
+         endingLineNumber = "25"
          landmarkName = "-setUp"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,37 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "JZMaxDisArrayValueTests/JZMaxDisArrayValueTests.m"
-         timestampString = "429462830.34235"
+         timestampString = "429519467.685608"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "31"
-         endingLineNumber = "31"
+         startingLineNumber = "36"
+         endingLineNumber = "36"
+         landmarkName = "-testMaxDisArrayValue"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "JZMaxDisArrayValueTests/JZMaxDisArrayValueTests.m"
+         timestampString = "429521403.905343"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "36"
+         endingLineNumber = "36"
+         landmarkName = "-testMaxDisArrayValue"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "JZMaxDisArrayValueTests/JZMaxDisArrayValueTests.m"
+         timestampString = "429521403.905343"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "37"
+         endingLineNumber = "37"
          landmarkName = "-testMaxDisArrayValue"
          landmarkType = "5">
       </FileBreakpoint>

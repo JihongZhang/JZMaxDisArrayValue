@@ -5,9 +5,15 @@
 //  Created by jihong zhang on 8/9/14.
 //  Copyright (c) 2014 JZ. All rights reserved.
 //
-#import <SenTestingKit/SenTestingKit.h>
-#import "JZMaxDisArrayValueTests.h"
 #import "JZViewController.h"
+
+#import <SenTestingKit/SenTestingKit.h>
+
+#define HC_SHORTHAND
+#import <OCHamcrestIOS/OCHamcrestIOS.h>
+
+#import "JZMaxDisArrayValueTests.h"
+
 
 
 @implementation JZMaxDisArrayValueTests
@@ -18,7 +24,6 @@
     // Set-up code here.
     self.testJZViewController =  [[JZViewController alloc] init];
 }
-
 - (void)tearDown
 {
     // Tear-down code here.
@@ -29,6 +34,8 @@
 
 - (void)testMaxDisArrayValue
 {
+    assertThat(self.testJZViewController, is(notNilValue()));
+    
     NSArray *testArray = @[@"20", @"10", @"50", @"5", @"1"];
     STAssertEquals([self.testJZViewController maxDisArrayValueFor:testArray], 71, @"The max value of the array is incorrect");
     

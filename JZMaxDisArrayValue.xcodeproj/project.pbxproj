@@ -24,6 +24,9 @@
 		CF3C3AF619968CED0072A5EC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF3C3AF419968CED0072A5EC /* InfoPlist.strings */; };
 		CF3C3AF919968CED0072A5EC /* JZMaxDisArrayValueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3AF819968CED0072A5EC /* JZMaxDisArrayValueTests.m */; };
 		CF3C3B0C199853870072A5EC /* JZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3C3AE319968CEC0072A5EC /* JZViewController.m */; };
+		CF3C3B1C1999CDC10072A5EC /* OCHamcrestIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF3C3B1B1999CDC10072A5EC /* OCHamcrestIOS.framework */; };
+		CF3C3B1D1999CE4C0072A5EC /* OCHamcrestIOS.framework in Resources */ = {isa = PBXBuildFile; fileRef = CF3C3B1B1999CDC10072A5EC /* OCHamcrestIOS.framework */; };
+		CF3C3B1E1999F2390072A5EC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF3C3ADF19968CEC0072A5EC /* MainStoryboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +62,7 @@
 		CF3C3AF519968CED0072A5EC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CF3C3AF719968CED0072A5EC /* JZMaxDisArrayValueTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JZMaxDisArrayValueTests.h; sourceTree = "<group>"; };
 		CF3C3AF819968CED0072A5EC /* JZMaxDisArrayValueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JZMaxDisArrayValueTests.m; sourceTree = "<group>"; };
+		CF3C3B1B1999CDC10072A5EC /* OCHamcrestIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OCHamcrestIOS.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				CF3C3AEC19968CED0072A5EC /* SenTestingKit.framework in Frameworks */,
 				CF3C3AED19968CED0072A5EC /* UIKit.framework in Frameworks */,
 				CF3C3AEE19968CED0072A5EC /* Foundation.framework in Frameworks */,
+				CF3C3B1C1999CDC10072A5EC /* OCHamcrestIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +112,7 @@
 		CF3C3AC619968CEC0072A5EC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF3C3B1B1999CDC10072A5EC /* OCHamcrestIOS.framework */,
 				CF3C3AC719968CEC0072A5EC /* UIKit.framework */,
 				CF3C3AC919968CEC0072A5EC /* Foundation.framework */,
 				CF3C3ACB19968CEC0072A5EC /* CoreGraphics.framework */,
@@ -246,6 +252,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF3C3AF619968CED0072A5EC /* InfoPlist.strings in Resources */,
+				CF3C3B1D1999CE4C0072A5EC /* OCHamcrestIOS.framework in Resources */,
+				CF3C3B1E1999F2390072A5EC /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +401,7 @@
 				GCC_PREFIX_HEADER = "JZMaxDisArrayValue/JZMaxDisArrayValue-Prefix.pch";
 				INFOPLIST_FILE = "JZMaxDisArrayValue/JZMaxDisArrayValue-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"TEST_HOST[sdk=*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

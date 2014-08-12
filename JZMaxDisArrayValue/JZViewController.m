@@ -33,7 +33,7 @@
     NSArray *array = [self.textArrayInput.text componentsSeparatedByString:@","];
     
     int maxSum = [self maxDisArrayValueFor:array];
-    self.lableMaxSum.text = [NSString stringWithFormat:@"Max sum of dis.array is: %d", maxSum ];
+    self.lableMaxSum.text = [NSString stringWithFormat:@"Max sum of dis. array is: %d", maxSum ];
     NSLog( @"All Sum = %d", maxSum );
 }
 
